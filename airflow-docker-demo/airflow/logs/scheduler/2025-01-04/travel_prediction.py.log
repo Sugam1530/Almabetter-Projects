@@ -1027,3 +1027,52 @@
 [2025-01-04T09:36:12.546+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:12.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-04T09:36:12.579+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:12.579+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
 [2025-01-04T09:36:12.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.184 seconds
+[2025-01-04T09:36:42.966+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:36:42.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:36:42.971+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:42.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:36:42.997+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:36:43.033+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:43.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:36:43.067+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:43.067+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:36:43.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.188 seconds
+[2025-01-04T09:37:13.362+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:13.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:37:13.366+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:13.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:13.396+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:13.433+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:13.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:37:13.469+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:13.469+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:37:13.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.198 seconds
+[2025-01-04T09:37:43.873+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:43.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:37:43.877+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:43.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:43.906+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:37:43.940+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:43.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:37:43.971+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:43.971+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:37:44.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.197 seconds
+[2025-01-04T09:38:14.469+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:14.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:38:14.473+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:14.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:14.499+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:14.533+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:14.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:38:14.569+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:14.569+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:38:14.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.180 seconds
+[2025-01-04T09:38:44.859+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:44.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:38:44.863+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:44.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:44.893+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:38:44.925+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:44.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:38:44.956+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:44.955+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:38:45.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.178 seconds
+[2025-01-04T09:39:15.439+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:15.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:39:15.445+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:15.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:15.474+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:15.507+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:15.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:39:15.542+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:15.541+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:39:15.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.181 seconds
+[2025-01-04T09:39:45.925+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:45.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/travel_prediction.py for tasks to queue
+[2025-01-04T09:39:45.930+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:45.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:45.954+0000] {processor.py:925} INFO - DAG(s) 'model_prediction_dag' retrieved from /opt/airflow/dags/travel_prediction.py
+[2025-01-04T09:39:45.987+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:45.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:39:46.019+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:46.019+0000] {dag.py:4180} INFO - Setting next_dagrun for model_prediction_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-04T09:39:46.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/travel_prediction.py took 0.168 seconds

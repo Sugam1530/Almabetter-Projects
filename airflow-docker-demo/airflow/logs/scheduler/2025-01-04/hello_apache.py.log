@@ -1020,3 +1020,59 @@
 [2025-01-04T09:35:56.669+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:35:56.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-04T09:35:56.703+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:35:56.702+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
 [2025-01-04T09:35:56.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.182 seconds
+[2025-01-04T09:36:27.176+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:27.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:36:27.179+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:27.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:27.207+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:27.243+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:27.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:36:27.276+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:27.275+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:36:27.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.187 seconds
+[2025-01-04T09:36:57.693+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:57.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:36:57.699+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:57.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:57.735+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:36:57.773+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:57.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:36:57.808+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:36:57.807+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:36:57.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.231 seconds
+[2025-01-04T09:37:28.407+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:28.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:37:28.412+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:28.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:28.441+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:28.476+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:28.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:37:28.507+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:28.507+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:37:28.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.211 seconds
+[2025-01-04T09:37:58.831+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:58.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:37:58.837+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:58.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:58.896+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:37:58.945+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:58.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:37:58.978+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:37:58.977+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:37:59.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.230 seconds
+[2025-01-04T09:38:29.482+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:38:29.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:38:29.487+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:29.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:38:29.514+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:38:29.549+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:29.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:38:29.580+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:38:29.580+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:38:29.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.183 seconds
+[2025-01-04T09:39:00.080+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:00.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:39:00.085+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:00.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:00.107+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:00.139+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:00.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:39:00.170+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:00.170+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:39:00.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.164 seconds
+[2025-01-04T09:39:30.524+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:30.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:39:30.528+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:30.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:30.551+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:39:30.584+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:30.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:39:30.614+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:39:30.614+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:39:30.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.169 seconds
+[2025-01-04T09:40:00.959+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:40:00.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_apache.py for tasks to queue
+[2025-01-04T09:40:00.963+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:40:00.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:40:00.990+0000] {processor.py:925} INFO - DAG(s) 'hello_apache' retrieved from /opt/airflow/dags/hello_apache.py
+[2025-01-04T09:40:01.022+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:40:01.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T09:40:01.052+0000] {logging_mixin.py:190} INFO - [2025-01-04T09:40:01.052+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_apache to 2025-01-03 17:00:00+00:00, run_after=2025-01-04 17:00:00+00:00
+[2025-01-04T09:40:01.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_apache.py took 0.172 seconds
