@@ -15542,3 +15542,12 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 /opt/airflow/dags/travel_prediction.py                           1           0  0.20s           2025-01-04T09:39:46                      12
 /opt/airflow/dags/hello_apache.py                                1           0  0.20s           2025-01-04T09:39:30                      12
 ================================================================================
+[2025-01-04T09:40:16.615+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/travel_prediction.py                           1           0  0.21s           2025-01-04T09:40:16                      12
+/opt/airflow/dags/hello_apache.py                                1           0  0.20s           2025-01-04T09:40:01                      12
+================================================================================
