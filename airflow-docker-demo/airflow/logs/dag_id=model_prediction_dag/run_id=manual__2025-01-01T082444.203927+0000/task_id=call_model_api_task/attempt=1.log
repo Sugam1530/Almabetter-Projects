@@ -1,0 +1,18 @@
+[2025-01-01T08:24:49.819+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-01T08:24:49.854+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: model_prediction_dag.call_model_api_task manual__2025-01-01T08:24:44.203927+00:00 [queued]>
+[2025-01-01T08:24:49.881+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: model_prediction_dag.call_model_api_task manual__2025-01-01T08:24:44.203927+00:00 [queued]>
+[2025-01-01T08:24:49.882+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-01-01T08:24:49.959+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): call_model_api_task> on 2025-01-01 08:24:44.203927+00:00
+[2025-01-01T08:24:49.965+0000] {standard_task_runner.py:72} INFO - Started process 552 to run task
+[2025-01-01T08:24:49.970+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'model_prediction_dag', 'call_model_api_task', 'manual__2025-01-01T08:24:44.203927+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/travel_prediction.py', '--cfg-path', '/tmp/tmpn57xms6n']
+[2025-01-01T08:24:49.973+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask call_model_api_task
+[2025-01-01T08:24:50.114+0000] {task_command.py:467} INFO - Running <TaskInstance: model_prediction_dag.call_model_api_task manual__2025-01-01T08:24:44.203927+00:00 [running]> on host 23f622abfe56
+[2025-01-01T08:24:50.352+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='model_prediction_dag' AIRFLOW_CTX_TASK_ID='call_model_api_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-01T08:24:44.203927+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-01T08:24:44.203927+00:00'
+[2025-01-01T08:24:50.355+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-01T08:24:50.462+0000] {logging_mixin.py:190} INFO - Prediction: {'prediction': [630.4428]}
+[2025-01-01T08:24:50.464+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-01T08:24:50.490+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-01T08:24:50.492+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=model_prediction_dag, task_id=call_model_api_task, run_id=manual__2025-01-01T08:24:44.203927+00:00, execution_date=20250101T082444, start_date=20250101T082449, end_date=20250101T082450
+[2025-01-01T08:24:50.589+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-01T08:24:50.622+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-01T08:24:50.626+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
