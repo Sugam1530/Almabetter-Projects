@@ -1,22 +1,23 @@
-version: '3'
-
 services:
   sleek-airflow:
-    image: airflow-docker-demo:latest
+    build:
+      context: ./airflow
+      dockerfile: dockerfile
+    container_name: sleek-airflow-container
     volumes:
       - ./airflow:/opt/airflow
     ports:
-      - "8080:8080"
+      - "8081:8080"
     command: ["airflow", "standalone"]
 
   jenkins:
     image: jenkins/jenkins:lts
     container_name: jenkins-container
     ports:
-      - "8081:8080"
-      - "50000:50000"
+      - "8080:8080"
     volumes:
-      - jenkins_home:/var/jenkins_home
+      - "D:/ALMABETTER PROJECTS/airflow-docker-demo/airflow:/opt/airflow"
+
 
 volumes:
   jenkins_home:

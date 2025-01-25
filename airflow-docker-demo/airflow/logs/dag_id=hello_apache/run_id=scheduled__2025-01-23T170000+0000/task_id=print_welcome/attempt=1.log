@@ -1,0 +1,18 @@
+[2025-01-24T17:35:15.946+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-24T17:35:15.979+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_apache.print_welcome scheduled__2025-01-23T17:00:00+00:00 [queued]>
+[2025-01-24T17:35:16.003+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_apache.print_welcome scheduled__2025-01-23T17:00:00+00:00 [queued]>
+[2025-01-24T17:35:16.004+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-24T17:35:16.073+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): print_welcome> on 2025-01-23 17:00:00+00:00
+[2025-01-24T17:35:16.080+0000] {standard_task_runner.py:72} INFO - Started process 3852 to run task
+[2025-01-24T17:35:16.083+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hello_apache', 'print_welcome', 'scheduled__2025-01-23T17:00:00+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/hello_apache.py', '--cfg-path', '/tmp/tmpmu6nugta']
+[2025-01-24T17:35:16.086+0000] {standard_task_runner.py:105} INFO - Job 130: Subtask print_welcome
+[2025-01-24T17:35:16.222+0000] {task_command.py:467} INFO - Running <TaskInstance: hello_apache.print_welcome scheduled__2025-01-23T17:00:00+00:00 [running]> on host 7f618819d11e
+[2025-01-24T17:35:16.410+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='hello_apache' AIRFLOW_CTX_TASK_ID='print_welcome' AIRFLOW_CTX_EXECUTION_DATE='2025-01-23T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-23T17:00:00+00:00'
+[2025-01-24T17:35:16.411+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-24T17:35:16.431+0000] {logging_mixin.py:190} INFO - Welcome to Sugam's Travel Price Prediction
+[2025-01-24T17:35:16.432+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-24T17:35:16.454+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-24T17:35:16.455+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hello_apache, task_id=print_welcome, run_id=scheduled__2025-01-23T17:00:00+00:00, execution_date=20250123T170000, start_date=20250124T173515, end_date=20250124T173516
+[2025-01-24T17:35:16.539+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-24T17:35:16.593+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-24T17:35:16.616+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
